@@ -1,5 +1,11 @@
 100.times do |x|
-	print x+1
 	
+	if x == 2
+		puts "mined"
+	else
+		print x + 1
+	end
 end
+
+
 	
